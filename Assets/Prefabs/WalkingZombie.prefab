@@ -2142,6 +2142,8 @@ GameObject:
   - component: {fileID: 7016605710635400837}
   - component: {fileID: 7016605710635400838}
   - component: {fileID: -7278816567679629544}
+  - component: {fileID: 803662710}
+  - component: {fileID: 803662711}
   m_Layer: 0
   m_Name: WalkingZombie
   m_TagString: Untagged
@@ -2213,7 +2215,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!65 &7016605710635400838
 BoxCollider:
@@ -2241,6 +2243,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   closestTarget: {fileID: 0}
+--- !u!114 &803662710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6846151205797482728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5cb5d93e0a0274a9c57e3a22301931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  speed: 5
+--- !u!114 &803662711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6846151205797482728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ae0d759ccf4e1842a02e872ec3c1edf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7148608589104864341
 GameObject:
   m_ObjectHideFlags: 0
